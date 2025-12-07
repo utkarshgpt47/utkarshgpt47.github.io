@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://utkarshgpt47.github.io/sitemap.xml
+Sitemap: https://utkarshgupta.com/sitemap.xml
