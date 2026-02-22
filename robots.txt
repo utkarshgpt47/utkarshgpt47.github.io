@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+# Ensure all key pages are discoverable
+User-agent: Googlebot
+Allow: /
+Allow: /sitemap.xml
+
 Sitemap: https://utkarshgupta.com/sitemap.xml
+
+# Host directive
+Host: https://utkarshgupta.com

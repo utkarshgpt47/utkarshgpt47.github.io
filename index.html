@@ -17,6 +17,11 @@
     <meta name="content-language" content="en">
     <link rel="alternate" hreflang="en" href="https://utkarshgupta.com/">
 
+    <!-- Local / Geo SEO Meta Tags -->
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="IN">
+    <meta name="geo.placename" content="India">
+
     <!-- Theme color for mobile browsers -->
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -89,6 +94,105 @@
         "@type": "Organization",
         "name": "Independent Consultant"
       }
+    }
+    </script>
+
+    <!-- WebSite Schema — enables sitelinks search box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Utkarsh Gupta - AI, Analytics & Automation Consultant",
+      "url": "https://utkarshgupta.com/",
+      "description": "Portfolio and consulting website of Utkarsh Gupta, an expert in AI, Analytics, and Automation.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Utkarsh Gupta"
+      }
+    }
+    </script>
+
+    <!-- ProfessionalService Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Utkarsh Gupta - AI & Analytics Consulting",
+      "url": "https://utkarshgupta.com/",
+      "image": "https://utkarshgupta.com/images/og-image.png",
+      "description": "Expert AI, Analytics & Automation consulting services. Specializing in data-driven strategy, AI agents, machine learning, and intelligent automation for businesses.",
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "serviceType": ["AI Consulting", "Data Analytics", "Process Automation", "Machine Learning", "Business Intelligence"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AI & Analytics Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI & Machine Learning Solutions"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Advanced Analytics & Business Intelligence"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Process Automation & AI Agents"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Data Strategy & Planning"}}
+        ]
+      }
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://utkarshgupta.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://utkarshgupta.com/#services"},
+        {"@type": "ListItem", "position": 3, "name": "Projects", "item": "https://utkarshgupta.com/#projects"},
+        {"@type": "ListItem", "position": 4, "name": "Contact", "item": "https://utkarshgupta.com/#contact"}
+      ]
+    }
+    </script>
+
+    <!-- FAQPage Schema — creates rich FAQ snippets in SERPs -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What services does Utkarsh Gupta offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utkarsh Gupta offers AI & Machine Learning solutions, Advanced Analytics & Business Intelligence, Process Automation with AI agents, and Data Strategy & Planning consulting for businesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many years of experience does Utkarsh Gupta have in AI and Analytics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utkarsh Gupta has 6+ years of experience in AI, Analytics, and Automation, working with leading B2C, D2C, and B2B product-based companies to drive data-driven transformation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technologies and skills does Utkarsh Gupta specialize in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utkarsh Gupta specializes in Python, SQL, Artificial Intelligence, Machine Learning, Process Automation, Data Analytics, AI Agents, Data Visualization, ETL & Data Pipelines, and Predictive Modeling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I hire Utkarsh Gupta for an AI consulting project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can contact Utkarsh Gupta through the contact form on his website at utkarshgupta.com or email him at utkarshgpt47@gmail.com to discuss your project requirements."
+          }
+        }
+      ]
     }
     </script>
 
@@ -223,7 +327,51 @@
                 <p class="section-subtitle">Comprehensive solutions for your data and AI needs</p>
             </div>
             <div class="services-grid stagger-children" id="servicesGrid">
-                <!-- Services will be populated by JavaScript -->
+                <div class="service-card reveal">
+                    <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                            <path d="M7 9l3 3-3 3M13 15h4"></path>
+                        </svg></span>
+                    <h3 class="service-title">AI &amp; Machine Learning</h3>
+                    <p class="service-description">Build intelligent systems that learn from your data and automate
+                        complex decision-making processes.</p>
+                </div>
+                <div class="service-card reveal">
+                    <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg></span>
+                    <h3 class="service-title">Advanced Analytics</h3>
+                    <p class="service-description">Transform raw data into actionable insights with custom analytics
+                        solutions tailored to your business needs.</p>
+                </div>
+                <div class="service-card reveal">
+                    <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg></span>
+                    <h3 class="service-title">Process Automation</h3>
+                    <p class="service-description">Streamline operations and eliminate manual tasks through intelligent
+                        automation and AI agents.</p>
+                </div>
+                <div class="service-card reveal">
+                    <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg></span>
+                    <h3 class="service-title">Data Strategy &amp; Planning</h3>
+                    <p class="service-description">Develop comprehensive data strategies that align with your business
+                        goals and drive measurable outcomes.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -247,7 +395,66 @@
                         Technical Skills
                     </h3>
                     <div class="skills-list" id="technicalSkills">
-                        <!-- Skill bars will be populated by JavaScript -->
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>SQL</span><span>95%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Python</span><span>90%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Artificial Intelligence</span><span>85%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Machine Learning</span><span>85%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Process Automation</span><span>90%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Data Analytics</span><span>95%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>AI Agents</span><span>80%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Data Visualization</span><span>88%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>ETL &amp; Data Pipelines</span><span>85%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-label"><span>Predictive Modeling</span><span>82%</span></div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="82"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="skills-category reveal">
@@ -263,7 +470,12 @@
                         Professional Expertise
                     </h3>
                     <div class="skills-list skills-list-tags" id="professionalSkills">
-                        <!-- Tags will be populated by JavaScript -->
+                        <span class="skill-tag">Data-Driven Strategy &amp; Planning</span>
+                        <span class="skill-tag">Business Intelligence</span>
+                        <span class="skill-tag">Team Leadership &amp; Management</span>
+                        <span class="skill-tag">Analytics Consulting</span>
+                        <span class="skill-tag">Stakeholder Management</span>
+                        <span class="skill-tag">Process Optimization</span>
                     </div>
                 </div>
             </div>
@@ -278,7 +490,57 @@
                 <p class="section-subtitle">Showcasing impact through innovation</p>
             </div>
             <div class="projects-grid stagger-children" id="projectsGrid">
-                <!-- Projects will be populated by JavaScript -->
+                <div class="project-card reveal">
+                    <div class="project-image-wrapper">
+                        <img src="images/project1.png"
+                            alt="AI-Powered Analytics Platform - End-to-end analytics solution by Utkarsh Gupta"
+                            class="project-image" loading="lazy">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Powered Analytics Platform</h3>
+                        <p class="project-description">End-to-end analytics solution leveraging AI for automated
+                            insights and predictive modeling, reducing analysis time by 70%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span><span class="tech-tag">AI</span><span
+                                class="tech-tag">SQL</span><span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-image-wrapper">
+                        <img src="images/project2.png"
+                            alt="Automated Reporting System - Intelligent automation framework by Utkarsh Gupta"
+                            class="project-image" loading="lazy">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automated Reporting System</h3>
+                        <p class="project-description">Intelligent automation framework that generates custom reports
+                            and dashboards, serving 100+ stakeholders daily.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span><span class="tech-tag">Automation</span><span
+                                class="tech-tag">Analytics</span><span class="tech-tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <div class="project-image-wrapper">
+                        <img src="images/project3.png"
+                            alt="Customer Analytics Engine - Advanced B2C analytics solution by Utkarsh Gupta"
+                            class="project-image" loading="lazy">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Customer Analytics Engine</h3>
+                        <p class="project-description">Advanced analytics solution for B2C companies, delivering
+                            actionable insights on customer behavior and lifetime value.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">SQL</span><span class="tech-tag">Python</span><span
+                                class="tech-tag">Analytics</span><span class="tech-tag">AI</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
