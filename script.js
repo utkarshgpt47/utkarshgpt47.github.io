@@ -41,11 +41,15 @@ function initNavigation() {
 
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
+            const targetId = link.getAttribute('href');
+
+            // Only intercept anchor links (e.g. #about), let real URLs (e.g. blog/) navigate normally
+            if (!targetId.startsWith('#')) return;
+
             e.preventDefault();
             navMenu.classList.remove('active');
             if (mobileMenuToggle) mobileMenuToggle.classList.remove('active');
 
-            const targetId = link.getAttribute('href');
             const targetSection = document.querySelector(targetId);
             if (targetSection) {
                 const offsetTop = targetSection.offsetTop - 70;
