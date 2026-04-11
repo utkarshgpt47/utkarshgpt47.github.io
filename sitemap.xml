@@ -26,8 +26,14 @@
   </url>
   <url>
     <loc>https://utkarshgupta.com/blog/</loc>
-    <lastmod>2026-03-26</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://utkarshgupta.com/blog/ai-agent-freight-brokers.html</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
