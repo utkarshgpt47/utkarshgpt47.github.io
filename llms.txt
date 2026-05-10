@@ -14,6 +14,7 @@
 
 ## Blog Posts
 
+- [Your Company Doesn't Need More AI Tools. It Needs an AI Strategy.](https://utkarshgupta.com/blog/ai-strategy-for-business.html): A practical guide for business leaders on building an AI strategy. Covers the AI tool trap, 5-step framework for AI prioritization, common mistakes US companies make, and how to move from scattered AI experiments to a cohesive strategy that drives measurable ROI.
 - [It's All Automation, Not Just AI: The Real Revolution](https://utkarshgupta.com/blog/ai-powered-automation-not-just-ai.html): Why the real AI value comes from automation powered by AI, not just AI tools. Includes real-world examples of lead follow-up automation, self-building financial reports, and automated customer support.
 - [Never Miss a Load Again: AI Sales Agent for Freight Brokers](https://utkarshgupta.com/blog/ai-agent-freight-brokers.html): How a 24/7 AI agent captures every inquiry and converts it into revenue automatically for freight brokers.
 - [How AI Actually Helps in Analytics Today](https://utkarshgupta.com/blog/how-ai-helps-in-analytics.html): A practical look at how artificial intelligence is genuinely improving data analytics for businesses today.
