@@ -20,7 +20,9 @@
     <!-- Local / Geo SEO Meta Tags -->
     <meta name="revisit-after" content="7 days">
     <meta name="geo.region" content="IN">
-    <meta name="geo.placename" content="India">
+    <meta name="geo.region" content="US">
+    <meta name="geo.region" content="EU">
+    <meta name="geo.placename" content="India, United States, Europe">
 
     <!-- Theme color for mobile browsers -->
     <meta name="theme-color" content="#ffffff">
@@ -122,10 +124,11 @@
       "image": "https://utkarshgupta.com/images/og-image.png",
       "description": "Expert AI, Analytics & Automation consulting services. Specializing in data-driven strategy, AI agents, machine learning, and intelligent automation for businesses.",
       "priceRange": "$$",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      },
+      "areaServed": [
+        {"@type": "Country", "name": "India"},
+        {"@type": "Country", "name": "United States"},
+        {"@type": "AdministrativeArea", "name": "Europe"}
+      ],
       "serviceType": ["AI Consulting", "Data Analytics", "Process Automation", "Machine Learning", "Business Intelligence"],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
