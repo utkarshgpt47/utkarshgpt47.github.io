@@ -47,4 +47,4 @@ Allow: /
 Sitemap: https://utkarshgupta.com/sitemap.xml
 
 # Host directive
-Host: https://utkarshgupta.com
+Host: utkarshgupta.com
