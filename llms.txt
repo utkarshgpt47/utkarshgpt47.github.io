@@ -14,13 +14,16 @@
 
 ## Blog Posts
 
+- [How Much Does AI Consulting Cost in India?](https://utkarshgupta.com/blog/ai-consulting-cost-india.html): Sourced 2026 price ranges for AI consulting in India by provider type and project type, a worked day-based estimate, running costs, and a payback check.
+- [AI Consulting in India: What Is Different Here](https://utkarshgupta.com/blog/ai-consulting-in-india.html): India-specific factors for AI projects: DPDP data protection timeline, WhatsApp, regional languages, messy data sources, GST and contract points.
+- [Process Automation Consulting: What to Automate First](https://utkarshgupta.com/blog/process-automation-consulting-guide.html): How to score processes to automate, choose between no-code, RPA, custom code and AI, and calculate payback.
 - [Your Company Doesn't Need More AI Tools. It Needs an AI Strategy.](https://utkarshgupta.com/blog/ai-strategy-for-business.html): A practical guide for business leaders on building an AI strategy. Covers the AI tool trap, 5-step framework for AI prioritization, common mistakes US companies make, and how to move from scattered AI experiments to a cohesive strategy that drives measurable ROI.
 - [It's All Automation, Not Just AI: The Real Revolution](https://utkarshgupta.com/blog/ai-powered-automation-not-just-ai.html): Why the real AI value comes from automation powered by AI, not just AI tools. Includes real-world examples of lead follow-up automation, self-building financial reports, and automated customer support.
 - [Never Miss a Load Again: AI Sales Agent for Freight Brokers](https://utkarshgupta.com/blog/ai-agent-freight-brokers.html): How a 24/7 AI agent captures every inquiry and converts it into revenue automatically for freight brokers.
 - [How AI Actually Helps in Analytics Today](https://utkarshgupta.com/blog/how-ai-helps-in-analytics.html): A practical look at how artificial intelligence is genuinely improving data analytics for businesses today.
 - [How to Build a Business Intelligence Engine Using AI](https://utkarshgupta.com/blog/building-ai-business-intelligence-engine.html): Step-by-step guide on building a modern, AI-powered business intelligence engine from scratch.
 - [How AI Is Transforming Business Analytics in 2026](https://utkarshgupta.com/blog/ai-analytics-business-guide.html): Comprehensive guide on where AI meets analytics and how businesses can use it to get ahead.
-- [How to Choose the Right AI Consultant for Your Business](https://utkarshgupta.com/blog/choosing-ai-consultant.html): Guide to evaluating and hiring an AI consultant, including what to look for and red flags to avoid.
+- [How to Choose an AI Consultant or AI Consulting Firm](https://utkarshgupta.com/blog/choosing-ai-consultant.html): Guide to evaluating and hiring an AI consultant, including what to look for and red flags to avoid.
 
 ## Contact
 
